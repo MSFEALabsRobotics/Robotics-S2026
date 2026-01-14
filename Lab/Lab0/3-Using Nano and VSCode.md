@@ -10,33 +10,6 @@ Goal:
 
 ## 1) Open WSL (Ubuntu)
 
-Open **Ubuntu (WSL)** from the Start menu (or run `wsl` from Command Prompt).
-
-Check Python is available:
-```bash
-python3 --version
-```
-
-If Python is missing:
-```bash
-sudo apt update
-sudo apt install -y python3
-```
-
----
-
-## 2) Make a project folder
-
-Create a folder and enter it:
-```bash
-mkdir -p ~/py_test
-cd ~/py_test
-```
-
----
-
-## 3) Create a simple `.py` file using `nano`
-
 Open nano:
 ```bash
 nano hello.py
@@ -44,7 +17,7 @@ nano hello.py
 
 Type this code:
 ```python
-print("Hello from WSL + Python!")
+print("Hello from WSL")
 name = input("Your name? ")
 print("Nice to meet you,", name)
 ```
