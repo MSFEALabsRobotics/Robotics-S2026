@@ -1,5 +1,5 @@
 # MECH 641 / EECE 661 — Robotics (Spring 2026)
-## Lecture 1 — Introduction to Robotics 🤖
+## Introduction to Robotics 🤖
 
 Welcome to **Robotics**!  
 This course is about how we make machines **move**, **sense**, **plan**, and **act intelligently** in the real world.
