@@ -113,7 +113,7 @@ code .
 ### B) You edited files under `/mnt/c/...` and it feels slow
 Keep dev projects in the Linux home folder, e.g.:
 ```bash
-~/py_test
+~/
 ```
 
 ---
