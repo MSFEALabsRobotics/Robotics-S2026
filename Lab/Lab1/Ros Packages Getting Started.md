@@ -41,64 +41,6 @@ source /opt/ros/<distro>/setup.bash
 # Introduction Ros2-Ubuntu-Python
 
 
-# VS CODE TIP
-
-- Go to "Customize notebook layout"
-- and then disable the setting: "Notebook: Drag and Drop Enabled".
-- Then you can select the text in rendered markdown cells.
-
-
-# Installations/ Environment Setup
-
-## Virtual Box:
-Download link:
-[Virtual Box Download](http://www.virtualbox.org)
-
----
-
-## Ubuntu:
-Check Ubuntu releases:
-[Ubuntu Releases](https://wiki.ubuntu.com/Releases)
-
-Download `.iso` image (22.04):
-[Ubuntu 22.04 Download](https://ubuntu.com/#download)
-
----
-
-### Tips:
-- Skip unattended installation in Virtual Box (if you want a minimal installation).
-- Minimal installation contains fewer applications.
-- Erasing the disk in Virtual Box is safe (in contrast to making a dual boot).
-- Sometimes the Virtualization option is disabled on your PC. You should enable this from the BIOS.
-- To have a full-screen Virtual Box experience:
-  1. Insert the guest additions CD image.
-  2. Run `./vbox additions` with administrator rights.
-  3. Install required packages:
-     ```bash
-     sudo apt-get update
-     sudo apt-get install build-essential gcc make perl dkms
-     ```
-
-
-# Ubuntu Desktop Introduction (GNOME Desktop)
-Get to know the Ubuntu Desktop.
-
----
-
-# Ubuntu Basic Terminal Commands
-
-### Open a New Terminal:
-```bash
-Ctrl + Alt + T
-```
-
-### Exit Terminal:
-```bash
-exit
-```
-
----
-
 ## File and Directory Operations
 
 - **Show Files:**
@@ -202,9 +144,6 @@ exit
   shutdown now
   ```
 
-- **Sync Clock Between VirtualBox and Original OS:**
-  ```bash
-  sudo hwclock --hctosys
 
 
 # Text Editors in Ubuntu
@@ -309,37 +248,6 @@ Use terminal commands to create folders and text files, and organize them with i
 ## ROS2 Distributions:
 > [ROS2 Releases](https://docs.ros.org/en/rolling/Releases.html)
 
-## ROS2 Foxy Installation
-> [ROS2 Foxy Installation Guide](https://docs.ros.org/en/foxy/Installation.html)
-
-- Sourcing ROS2 in each new terminal or adding the following line to `.bashrc` system file:
-> `gedit ~/.bashrc`
-
-> `source /opt/ros/humble/setup.bash`
-
-## Check ROS Installations
-> `/opt/ros`
-
-## Installing Tutorials
-> `sudo apt-get install ros-humble-demo-nodes-py`
-
-> `sudo apt-get install ros-humble-demo-nodes-cpp`
-
-## Installing TurtleSim
-> `sudo apt install ros-humble-turtlesim`
-
-### Using TurtleSim
-- First terminal:
-> `ros2 run turtlesim turtlesim_node`
-
-- Second terminal:
-> `ros2 run turtlesim turtle_teleop_key`
-
-## Installing rqt
-
-> `sudo apt update`
-
-> `sudo apt install ~nros-humble-rqt*`
 
 ### Running rqt
 
@@ -350,36 +258,6 @@ Use terminal commands to create folders and text files, and organize them with i
 > `ros2 run demo_nodes_cpp talker`
 
 > `ros2 run demo_nodes_py listener`
-
-
-# Prompt for python tutorial:
-> "Can you give me a step-by-step tutorial on how to get started with Python programming? Please cover basic concepts like variables, data types, control flow, functions, and classes. Include simple examples for each concept."
-
-
-<h1 style="color:Yellow;">Python Classes Exercise  (do it without LLMs)</h1>
-
-#### Objective:
-Learn how to define a class, create objects, and use methods within the class.
-
-#### Task:
-
-1. **Create a Class for a "Car":**
-   - Define a class named `Car` with the following attributes:
-     - `make`: The make of the car (e.g., "Toyota").
-     - `model`: The model of the car (e.g., "Corolla").
-     - `year`: The year of manufacture (e.g., 2020).
-
-2. **Add a Method to Display Car Information:**
-   - Create a method inside the class that displays the car's details in a readable format (e.g., `"2020 Toyota Corolla"`).
-
-3. **Create Car Objects:**
-   - Instantiate at least two `Car` objects with different values for the attributes.
-
-4. **Call the Method:**
-   - Use the method to display the details of each car object.
-
-5. **Bonus:**
-   - Add a method that allows updating the car's year (e.g., if it was upgraded or renovated).
 
 
 ---
