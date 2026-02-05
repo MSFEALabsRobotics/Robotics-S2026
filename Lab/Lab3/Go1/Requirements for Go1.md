@@ -20,7 +20,9 @@ micromamba shell init -s bash
 exec bash
 
 
-
+# create
 micromamba create -n py38 -y python=3.8 pip
+# activate
 micromamba activate py38
+#check python version
 python -V
