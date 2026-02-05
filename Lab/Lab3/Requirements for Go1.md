@@ -1,0 +1,26 @@
+for Go1 DogInstall Micromamba
+
+# make a bin folder (common convention)
+mkdir -p ~/bin
+
+# download + extract micromamba binary into ~/bin
+curl -L https://micro.mamba.pm/api/micromamba/linux-64/latest \
+  | tar -xvj -C ~/bin --strip-components=1 bin/micromamba
+
+# add ~/bin to PATH for future terminals
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+export PATH="$HOME/bin:$PATH"
+
+# verify
+micromamba --version
+
+
+
+micromamba shell init -s bash
+exec bash
+
+
+
+micromamba create -n py38 -y python=3.8 pip
+micromamba activate py38
+python -V
