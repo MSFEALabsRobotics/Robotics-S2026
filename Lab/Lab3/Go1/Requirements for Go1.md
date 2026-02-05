@@ -24,5 +24,5 @@ exec bash
 micromamba create -n py38 -y python=3.8 pip
 # activate
 micromamba activate py38
-#check python version
+# check python version
 python -V
