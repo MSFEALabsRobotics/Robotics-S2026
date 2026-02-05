@@ -15,6 +15,8 @@ micromamba --version
 
 
 micromamba shell init -s bash
+
+
 exec bash
 
 
