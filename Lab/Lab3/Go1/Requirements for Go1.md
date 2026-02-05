@@ -8,7 +8,6 @@ curl -L https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj -C ~/bi
 
 # add ~/bin to PATH for future terminals
 echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
-export PATH="$HOME/bin:$PATH"
 
 # verify
 micromamba --version
