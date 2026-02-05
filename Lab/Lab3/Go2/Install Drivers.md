@@ -33,6 +33,8 @@ export CMAKE_PREFIX_PATH=$CYCLONEDDS_HOME:$CMAKE_PREFIX_PATH
 ## 3) Install Unitree SDK2 (Python)
 
 ```bash
+cd ~
+git clone https://github.com/unitreerobotics/unitree_sdk2_python.git
 cd ~/unitree_sdk2_python
 pip3 install -e . --break-system-packages
 ```
