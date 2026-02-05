@@ -4,8 +4,7 @@ for Go1 DogInstall Micromamba
 mkdir -p ~/bin
 
 # download + extract micromamba binary into ~/bin
-curl -L https://micro.mamba.pm/api/micromamba/linux-64/latest \
-  | tar -xvj -C ~/bin --strip-components=1 bin/micromamba
+curl -L https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj -C ~/bin --strip-components=1 bin/micromamba
 
 # add ~/bin to PATH for future terminals
 echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
