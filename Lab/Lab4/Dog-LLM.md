@@ -27,6 +27,8 @@ colcon build
 pip install google-genai  --break-system-packages
 
 export GEMINI_API_KEY="AIzaSyDIwzFbYcypt7lZ3tpEVNk76ID9IvdTe1g"
+
+ros2 run llm_service_server ask_llm_service
 ```
 
 ### 4) Inspect the service + interface
