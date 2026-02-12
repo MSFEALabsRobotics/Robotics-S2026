@@ -27,15 +27,6 @@ colcon build
 source install/setup.bash
 ```
 
-### 3) Run the service server
-In a terminal (Terminal A):
-
-```bash
-ros2 run llm_service_server llm_service_server
-```
-
-> (Replace the executable name if your package uses a different entry point.)
-
 ### 4) Inspect the service + interface
 In another terminal (Terminal B):
 
