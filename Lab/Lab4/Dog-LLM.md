@@ -42,11 +42,6 @@ ros2 interface show strings_interfaces/srv/StringService
 ros2 service call /ask_llm strings_interfaces/srv/StringService "{request_data: 'What is the capital of France?, answer in one word'}"
 ```
 
-Expected console line (example):
-```
-requester: making request: strings_interfaces.srv.StringService_Request(request_data='What is the capital of France?, answer in one word')
-```
-
 ---
 
 ## Part 2 — Twist Subscriber (Velocity Commands)
