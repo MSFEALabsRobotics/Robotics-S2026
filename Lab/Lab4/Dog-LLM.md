@@ -25,6 +25,8 @@ colcon build
 ### 2) INSTALL DEPENDENCY
 ```bash
 pip install google-genai  --break-system-packages
+
+export GEMINI_API_KEY="AIzaSyDIwzFbYcypt7lZ3tpEVNk76ID9IvdTe1g"
 ```
 
 ### 4) Inspect the service + interface
