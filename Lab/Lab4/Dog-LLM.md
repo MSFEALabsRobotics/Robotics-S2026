@@ -22,9 +22,9 @@ colcon build --packages-select llm_service_server
 colcon build
 ```
 
-### 2) Source the workspace
+### 2) INSTALL DEPENDENCY
 ```bash
-source install/setup.bash
+pip install google-genai  --breack-system-packages
 ```
 
 ### 4) Inspect the service + interface
