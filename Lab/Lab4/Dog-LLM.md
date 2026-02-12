@@ -24,7 +24,7 @@ colcon build
 
 ### 2) INSTALL DEPENDENCY
 ```bash
-pip install google-genai  --breack-system-packages
+pip install google-genai  --break-system-packages
 ```
 
 ### 4) Inspect the service + interface
