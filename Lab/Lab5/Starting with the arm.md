@@ -60,7 +60,7 @@ source ~/.bashrc
 ## 4) Clone the Dobot ROS2 Repository
 
 ```bash
-cd ~
+cd ~/ros2_ws/src
 git clone https://github.com/Dobot-Arm/DOBOT_6Axis_ROS2_V4
 ```
 
@@ -69,7 +69,7 @@ git clone https://github.com/Dobot-Arm/DOBOT_6Axis_ROS2_V4
 Example pattern (adjust if the repo already is a workspace):
 
 ```bash
-cd ~/DOBOT_6Axis_ROS2_V4
+cd ~/ros2_ws
 colcon build
 source install/setup.bash
 ```
