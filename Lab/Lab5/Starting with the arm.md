@@ -82,7 +82,10 @@ source install/setup.bash
 ```bash
 ros2 launch dobot_rviz dobot_rviz.launch.py
 ```
-
+### JOint States GUI
+```bash
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+```
 ### 5.2 Robot Bringup
 ```bash
 ros2 launch cr_robot_ros2 dobot_bringup_ros2.launch.py
