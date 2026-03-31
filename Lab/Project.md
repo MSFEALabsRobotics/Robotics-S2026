@@ -75,6 +75,9 @@ The function should:
 
 This function demonstrates Cartesian trajectory generation and IK-based tracking.
 
+
+<img width="611" height="350" alt="image" src="https://github.com/user-attachments/assets/5097d8b8-9610-490d-a591-3971e50e3041" />
+
 #### Function 2: Circular Motion Parallel to the Ground
 A second function must be developed to move the end effector along a circular trajectory that is parallel to the ground.
 
