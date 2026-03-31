@@ -156,3 +156,9 @@ After grasping the cube, the robot must move it to the second table and place it
 A ROS node must be developed to:
 - define the input parameters c, x, y, z, α, h
 - when running this node the robot will physically pick and place the object
+
+<img width="768" height="587" alt="image" src="https://github.com/user-attachments/assets/1b7e8ff2-9651-4457-b63e-ddcdd34e36ef" />
+
+<img width="1742" height="1162" alt="image" src="https://github.com/user-attachments/assets/a4e216c0-54a9-4381-b8cc-9907764aaa11" />
+
+
